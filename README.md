@@ -33,6 +33,10 @@ make local-run
 # 2) Serviço systemd (produção)
 make service-install
 make service-logs
+
+# Extras
+make service-uninstall   # remove o serviço (mantém dados)
+make check-ports         # checa portas e firewall
 ```
 
 Sem Makefile, você pode usar os scripts diretamente:
