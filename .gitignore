@@ -1,0 +1,18 @@
+# Python / ambientes
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+minecraft/.venv/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
